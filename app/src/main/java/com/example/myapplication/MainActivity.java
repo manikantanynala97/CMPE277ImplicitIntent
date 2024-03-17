@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(intent);
                 } else {
-                    Toast.makeText(MainActivity.this, "Please enter a URL", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Please enter a URL specified", Toast.LENGTH_SHORT).show();
                 }
             }
         });
